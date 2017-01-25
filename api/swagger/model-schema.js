@@ -3,6 +3,13 @@
 /**
  * @swagger
  * definitions:
+ *   Error:
+ *     type: object
+ *     required:
+ *        - errorMessage
+ *     properties:
+ *        errorMessage:
+ *          type: string
  *   Health:
  *     type: object
  *     required:
