@@ -1,7 +1,7 @@
 'use strict';
 const appRoot = require('app-root-path');
 const HttpStatus = require('http-status');
-const Error = require('core-server').Error;
+const ServiceError = require('core-server').ServiceError;
 const ProxyCacheService = require('core-server').ProxyCacheService;
 
 const cache = (app) => {
