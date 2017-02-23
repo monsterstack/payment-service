@@ -1,1 +1,19 @@
-{"msg":"Hello"}
+{
+  "port": 11616,
+  "discovery": {
+    "host": "cdsp.digitalfunk.io",
+    "port": 7616
+  },
+  "redis": {
+    "host": "redis.digitalfunk.io",
+    "port": 6379
+  },
+  "stash": {
+    "type": "tcp",
+    "host": "cdsp.digitalfunk.io",
+    "port": 9600
+  },
+  "websockets": {
+    "enabled": true
+  }
+}
