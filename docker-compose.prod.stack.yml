@@ -5,6 +5,7 @@ services:
     image: paymentservice_web
     ports:
       - "11616:11616"
+      - "11617:11617"
     networks:
       - back-tier
     volumes:
