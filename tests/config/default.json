@@ -6,5 +6,10 @@
   },
   "websockets": {
     "enabled": true
+  },  
+  "stash": {
+    "type": "tcp",
+    "host": "cdsp.digitalfunk.io",
+    "port": 9600
   }
 }
